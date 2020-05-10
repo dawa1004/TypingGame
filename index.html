@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Typing Practice</h1>
+    <div class="container">
+      <p id="target"> <i class="fas fa-caret-down"></i> New Game</p>
+      <p class="info">
+        正しく打てた数: <span id="score">0</span>,<!-- Letter count -->
+        タイプミスした数: <span id="miss">0</span>,<!-- Miss count -->
+        制限時間: <span id="timer">20.00</span>秒<!-- Time left -->
+      </p>
+    </div>
+    <div class="rule">
+      <h2>ルール説明</h2>
+      <p>画面クリックで開始します。制限時間20秒のうちどれだけタイピングできたか計測します。</p>
+      <p>終了後、(click to replay)画面クリックで再度プレイできます。</p>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
